@@ -12,14 +12,15 @@ const Contact = () => {
             <div class="column left">
               <div class="text">Como me encontrar?</div>
               <p>
-                Caso queira entrar em contato ficarei muito feliz e responderei o mais rápido possível.
+                Caso queira entrar em contato ficarei muito feliz e responderei
+                o mais rápido possível.
               </p>
               <div class="icons">
                 <div class="row">
                   <i class="fas fa-user"></i>
                   <div class="info">
                     <div class="head">Nome</div>
-                    <div class="sub-title">Ivanildo Cândido</div>
+                    <div class="sub-title">Ivanildo Cândido Bezerra</div>
                   </div>
                 </div>
                 <div class="row">
@@ -33,19 +34,66 @@ const Contact = () => {
                   <i class="fas fa-envelope"></i>
                   <div class="info">
                     <div class="head">Email</div>
-                    <div class="sub-title">ivanildocandidodevelop@gmail.com</div>
+                    <div class="sub-title">systechtecnologia@gmail.com</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <i class="fab fa-linkedin"></i>
+                  <div class="info">
+                    <div class="head">Linkedin</div>
+                    <div class="sub-title">
+                      <a
+                        href="https://www.linkedin.com/in/ivanildocandido/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        https://www.linkedin.com/in/ivanildocandido/
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <i class="fab fa-github"></i>
+                  <div class="info">
+                    <div class="head">GitHub</div>
+                    <div class="sub-title">
+                      <a
+                        href="https://github.com/IvanildoCandido"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        https://github.com/IvanildoCandido
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="column right">
               <div class="text">Me envie um mensagem</div>
-              <form class="contact-form" action="https://api.staticforms.xyz/submit" method="POST">
-                <input type="hidden" name="accessKey" value="1d11a978-663a-4046-976c-2947d46cff28"/>
-                <input type="hidden" name="redirectTo" value="http://ivanildocandido.com.br"/>
+              <form
+                class="contact-form"
+                action="https://api.staticforms.xyz/submit"
+                method="POST"
+              >
+                <input
+                  type="hidden"
+                  name="accessKey"
+                  value="1d11a978-663a-4046-976c-2947d46cff28"
+                />
+                <input
+                  type="hidden"
+                  name="redirectTo"
+                  value="http://ivanildocandido.com.br"
+                />
                 <div class="fields">
                   <div class="field name">
-                    <input type="text" class="fullname" placeholder="Nome" name="name" />
+                    <input
+                      type="text"
+                      class="fullname"
+                      placeholder="Nome"
+                      name="name"
+                    />
                   </div>
                   <div class="field email">
                     <input
@@ -57,7 +105,12 @@ const Contact = () => {
                   </div>
                 </div>
                 <div class="field">
-                  <input type="text" class="subject" placeholder="Assunto" name="subject" />
+                  <input
+                    type="text"
+                    class="subject"
+                    placeholder="Assunto"
+                    name="subject"
+                  />
                 </div>
                 <div class="field textarea">
                   <textarea

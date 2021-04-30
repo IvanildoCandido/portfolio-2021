@@ -97,3 +97,9 @@
   color: crimson;
   background: none;
 }
+.contact .sub-title a {
+  color: white;
+}
+.contact .sub-title a:hover{
+  opacity: 0.8;
+}
