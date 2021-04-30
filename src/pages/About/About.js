@@ -15,21 +15,27 @@ const About = () => {
             <div className="column left">
               <img src={profile} alt="" />
             </div>
-            <div className="column right">
+            <div className="column right history">
               <div className="text">
                 Olá tudo bom? Conheça mais quem eu sou.
               </div>
+              Meu nome é Ivanildo Cândido tenho 34 anos e atualmente moro na
+              cidade de Campina Grande - PB.
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                ut voluptatum eveniet doloremque autem excepturi eaque, sit
-                laboriosam voluptatem nisi delectus. Facere explicabo hic minus
-                accusamus alias fuga nihil dolorum quae. Explicabo illo unde,
-                odio consequatur ipsam possimus veritatis, placeat, ab molestiae
-                velit inventore exercitationem consequuntur blanditiis omnis
-                beatae. Dolor iste excepturi ratione soluta quas culpa
-                voluptatum repudiandae harum non.
+                Desde os meus 16 anos quando pude comprar meu primeiro
+                computador me apaixonei por tecnologia.
               </p>
-              <Link to="/files/ivanildo-candido.pdf" target="_blank" download>Download do meu Currículo</Link>
+              <p>
+                Sou formado em Análise e Desenvolvimento de Sistemas e meu maior
+                Hobby é aprender novas tecnologias e criar soluções que ajude as
+                pessoas ao meu redor a ter mais praticidade no seu dia a dia.{' '}
+              </p>
+              <p>
+                Estou em busca de uma oportunidade onde eu possa contribuir com os meus conhecimentos para tornar o ambiente em que vivemos melhor e mais justo.
+              </p>
+              <Link to="/files/ivanildo-candido.pdf" target="_blank" download>
+                Download do meu Currículo
+              </Link>
             </div>
           </div>
         </div>

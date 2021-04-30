@@ -12,9 +12,7 @@ const Contact = () => {
             <div class="column left">
               <div class="text">Como me encontrar?</div>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos harum corporis fuga corrupti. Doloribus quis soluta
-                nesciunt veritatis vitae nobis?
+                Caso queira entrar em contato ficarei muito feliz e responderei o mais rápido possível.
               </p>
               <div class="icons">
                 <div class="row">

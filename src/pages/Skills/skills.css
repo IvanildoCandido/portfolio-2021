@@ -3,6 +3,10 @@
   border-radius: 6px;
   padding: 3px;
 }
+.skills .title::before {
+  width: 340px;
+  background: crimson;
+}
 .skills .skills-content .column {
   width: calc(50% - 30px);
 }
@@ -66,9 +70,12 @@
 .skills-content .right .js::before {
   width: 80%;
 }
-.skills-content .right .php::before {
-  width: 50%;
+.skills-content .right .react::before {
+  width: 90%;
+}
+.skills-content .right .jest::before {
+  width: 70%;
 }
 .skills-content .right .mysql::before {
-  width: 70%;
+  width: 60%;
 }

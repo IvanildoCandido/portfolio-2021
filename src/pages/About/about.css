@@ -3,6 +3,7 @@
   background-color: white;
 }
 .about .title::before {
+  width: 340px;
   background: crimson;
 }
 .about .about-content .left {
@@ -43,4 +44,7 @@
 .about .about-content .right a:hover {
   color: crimson;
   background: none;
+}
+.history p {
+  margin-top: 10px;
 }

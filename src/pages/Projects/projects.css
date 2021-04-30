@@ -10,6 +10,7 @@
   content: 'O que já fiz?' !important;
 }
 .teams .title::before {
+  width: 340px;
   background: crimson !important;
 }
 .teams .carousel .card {

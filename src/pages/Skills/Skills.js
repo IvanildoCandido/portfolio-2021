@@ -14,14 +14,11 @@ const Skills = () => {
             <div class="column left">
               <div class="text">Minhas habilidades & tecnologias.</div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos, ratione error est recusandae consequatur, iusto
-                illum deleniti quidem impedit, quos quaerat quis minima sequi.
-                Cupiditate recusandae laudantium esse, harum animi aspernatur
-                quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem
-                illum. Ad delectus natus aut hic explicabo minus quod.
+                Sou um "aprendedor" e a cada dia busco evoluir cada vez mais nas
+                tecnologias que tenho conhecimento. Ao lado é possível ver a
+                lista de tecnologia que tenho conhecimento assim como também o
+                nível atualizado que me encontro em cada uma delas.
               </p>
-              <Link to="/">Saiba mais</Link>
             </div>
             <div class="column right">
               <div class="bars">
@@ -50,12 +47,19 @@ const Skills = () => {
                   <span>React</span>
                   <span>90%</span>
                 </div>
-                <div class="line php"></div>
+                <div class="line react"></div>
               </div>
               <div class="bars">
                 <div class="info">
                   <span>Jest</span>
                   <span>70%</span>
+                </div>
+                <div class="line jest"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>MYSQL</span>
+                  <span>60%</span>
                 </div>
                 <div class="line mysql"></div>
               </div>
