@@ -40,21 +40,24 @@ const Contact = () => {
             </div>
             <div class="column right">
               <div class="text">Me envie um mensagem</div>
-              <form class="contact-form" action="#" method="POST">
+              <form class="contact-form" action="https://api.staticforms.xyz/submit" method="POST">
+                <input type="hidden" name="accessKey" value="1d11a978-663a-4046-976c-2947d46cff28"/>
+                <input type="hidden" name="redirectTo" value="http://ivanildocandido.com.br"/>
                 <div class="fields">
                   <div class="field name">
-                    <input type="text" class="fullname" placeholder="Nome" />
+                    <input type="text" class="fullname" placeholder="Nome" name="name" />
                   </div>
                   <div class="field email">
                     <input
                       type="text"
                       class="email-input"
                       placeholder="Email"
+                      name="email"
                     />
                   </div>
                 </div>
                 <div class="field">
-                  <input type="text" class="subject" placeholder="Assunto" />
+                  <input type="text" class="subject" placeholder="Assunto" name="subject" />
                 </div>
                 <div class="field textarea">
                   <textarea
@@ -62,6 +65,7 @@ const Contact = () => {
                     cols="30"
                     rows="10"
                     placeholder="Mensagem ..."
+                    name="message"
                   ></textarea>
                 </div>
                 <div class="button-area">
